@@ -1,9 +1,0 @@
-{% assign L = site.links %}
-<span class="link-row">
-  {% if L.email and L.email != "" %}<a href="mailto:{{ L.email }}">Email</a>{% endif %}
-  {% if L.github and L.github != "" %}<a href="https://github.com/{{ L.github }}">GitHub</a>{% endif %}
-  {% if L.twitter and L.twitter != "" %}<a href="https://x.com/{{ L.twitter }}">X / Twitter</a>{% endif %}
-  {% if L.linkedin and L.linkedin != "" %}<a href="https://www.linkedin.com/in/{{ L.linkedin }}">LinkedIn</a>{% endif %}
-  {% if L.scholar and L.scholar != "" %}<a href="{{ L.scholar }}">Scholar</a>{% endif %}
-  <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
-</span>
