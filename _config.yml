@@ -2,8 +2,8 @@
 # Site settings — edit these
 # ------------------------------------------------------------
 title: "Your Name"
-tagline: "Notes on AI research"
-description: "A collection of experiments in machine learning and AI."
+tagline: "Things I tried that probably didn't work"
+description: "Personal exploration into agents and machine learning"
 author: "Your Name"
 
 # If your repo is <username>.github.io, leave baseurl empty.
